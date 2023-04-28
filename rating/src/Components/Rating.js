@@ -34,9 +34,7 @@ const Rating = () => {
                             onClick={() => {
                                 setActive(true)
                                 setRating(eachRate)
-                            }}
-
-                        >
+                            }}>
                             <span className="eachRate">{eachRate}</span>
                         </button>
                     );
@@ -45,9 +43,6 @@ const Rating = () => {
             <button className={active ? "active" : "ratingbutton"} onClick={submit}>
                 Submit
             </button>
-        </div>
-    )
-
+        </div>)
 }
-
 export default Rating

@@ -9,7 +9,6 @@ const ThankYou = () => {
         <Navigate to="/" />
     }
     return (
-
         <div className="thanks-wrapper">
             <img className="thanks-img" src={Thanks} alt="Thanks-Logo" />
             <p className="thanks-text">You select {rating} out of 5</p>
@@ -22,10 +21,6 @@ const ThankYou = () => {
                     Back To Previous Page
                 </button>
             </Link>
-        </div>
-
-    )
-
+        </div>)
 }
-
 export default ThankYou

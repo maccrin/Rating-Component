@@ -1,7 +1,5 @@
 import React from "react";
-
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
 import ThankYou from './Components/ThankYou'
 import ErrorPage from './Components/ErrorPage'
 import Rating from "./Components/Rating"

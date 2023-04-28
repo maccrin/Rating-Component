@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, Navigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import "./error.css";
 const Error = () => {
     return (
@@ -7,10 +7,6 @@ const Error = () => {
             <Link to={`/`}>
                 <h3 className="error-text">Page Doesn't Exist</h3>
             </Link>
-
-        </div>
-    )
-
+        </div>)
 }
-
 export default Error
