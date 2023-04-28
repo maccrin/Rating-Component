@@ -1,0 +1,13 @@
+body {
+  background-color: white;
+}
+.error-text {
+  font-style: italic;
+  color: white;
+}
+.error {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10rem;
+  padding-left: 30rem;
+}

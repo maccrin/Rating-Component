@@ -1,0 +1,125 @@
+body {
+  background-color: black;
+}
+.header {
+  color: whitesmoke;
+  padding-bottom: 1rem;
+}
+.star {
+  background-color: rgb(69, 68, 70);
+  border-radius: 100%;
+  padding-right: 0.1rem;
+  width: 10px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+.wrapper {
+  width: 20%;
+  height: 80%;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  margin-top: 10rem;
+  margin-left: 30rem;
+  border-radius: 15px;
+  background-color: rgb(35, 34, 36);
+}
+
+.on {
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  height: 30px;
+  width: 30px;
+  color: whitesmoke;
+  border-radius: 100%;
+  background-color: rgb(69, 68, 70);
+  cursor: pointer;
+}
+.off {
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  height: 30px;
+  width: 30px;
+  color: whitesmoke;
+  border-radius: 100%;
+  background-color: orange;
+}
+.prev {
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  height: 30px;
+  width: 30px;
+  color: whitesmoke;
+  border-radius: 100%;
+  background-color: grey;
+}
+.ratingbutton {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  margin-left: 0.8rem;
+  font-size: 12px;
+  border-radius: 15px;
+  width: 190px;
+  height: 30px;
+  color: whitesmoke;
+  background-color: orange;
+  cursor: pointer;
+}
+.active {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  width: 190px;
+  height: 30px;
+  background-color: rgb(247, 244, 239);
+  color: orange;
+  cursor: pointer;
+}
+.eachrate {
+  color: whitesmoke;
+}
+.text {
+  color: whitesmoke;
+  font-size: 11.5px;
+  font-weight: lighter;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 760px) {
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    border-radius: 15px;
+    background-color: rgb(35, 34, 36);
+  }
+  .text {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    margin: auto;
+    flex-direction: column;
+  }
+  .on,
+  .off,
+  .prev {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    height: 30px;
+    width: 30px;
+    color: whitesmoke;
+    border-radius: 100%;
+    background-color: rgb(69, 68, 70);
+  }
+  .off {
+    cursor: pointer;
+    background-color: orange;
+  }
+  .prev {
+    background-color: grey;
+  }
+}
